@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+#./webに作成したwordpressのDockerfileを使用して"docker-compose build"でwebという名前のイメージを作成
+  web:
+    container_name: web
+    build: ./web
+    #ポート番号の指定
+    ports:
+      - "80:80"
+    tty: true
+#./dbに作成したMySQLのDockerfileを使用して"docker-compose build"でdbという名前のイメージを作成
+  db:
+    container_name: db
+    build: ./db
+    #ポート番号の指定
+    ports:
+      -  "3307:3306" 
+    tty: true
