@@ -1,5 +1,10 @@
 # 環境の立ち上げ方
 
+## gitリポジトリをクローンする
+~~~
+git clone git@github.com:myhearisranch/chubu_zikken.git
+~~~
+
 ## projectフォルダに移動する
 ~~~
 cd project
