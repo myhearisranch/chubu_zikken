@@ -24,5 +24,5 @@ http://localhost:80
 ~~~
 
 参考文献:<br>
-[docker-compose を使って WordPress テーマ開発環境を構築しよう](https://blog.recruit.co.jp/rmp/infrastructure/post-11266/)
+[docker-compose を使って WordPress テーマ開発環境を構築しよう](https://blog.recruit.co.jp/rmp/infrastructure/post-11266/)<br>
 [Docker-composeでWEB・DBのDockerfileよりwordpressを構築する](https://qiita.com/kasihko/items/4ebfee91f674f2ec04fa)
